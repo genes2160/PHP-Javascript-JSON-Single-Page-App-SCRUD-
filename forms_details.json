@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Eugene Dee",
+        "email": "eugenethecomputerguy@gmail.com",
+        "phone_number": "6135550128",
+        "alternative_phone_number": "6135550128",
+        "city": "OTTAWA",
+        "country": "Canada",
+        "amount_to_invest": "200000",
+        "currency": "GHC",
+        "contract_period": "12 months",
+        "payment_method": "Mobile Money",
+        "date_submitted": "November 6, 2018, 10:44 am"
+    },
+    {
+        "id": "2",
+        "name": "Samuel Jejeti",
+        "email": "sportsleague@mailinator.com",
+        "phone_number": "342234324",
+        "alternative_phone_number": "422342342",
+        "city": "Ohio",
+        "country": "USA",
+        "amount_to_invest": "34234234",
+        "currency": "GHC",
+        "contract_period": "3 months",
+        "payment_method": "Cash",
+        "date_submitted": "November 6, 2018, 10:44 am"
+    },
+    {
+        "id": "3",
+        "name": "Global Connectivity",
+        "email": "globalconnectivity@global.com",
+        "phone_number": "876876896",
+        "alternative_phone_number": "786876876789",
+        "city": "Facebook",
+        "country": "Facebook Country",
+        "amount_to_invest": "8987298361278357",
+        "currency": "GHC",
+        "contract_period": "6 months",
+        "payment_method": "Mobile Money",
+        "date_submitted": "November 6, 2018, 10:43 am"
+    }
+]
