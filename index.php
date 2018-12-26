@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/toastr.min.css" />
 </head>
 <body>
-<div class="container row">
+<div class="container">
    <div class="col-md-12 text-center">
    <h3> JSON CRUD Web App</h3><br/>
 	<?php
