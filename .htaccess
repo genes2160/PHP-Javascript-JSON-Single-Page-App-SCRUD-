@@ -1,0 +1,29 @@
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+
+	RewriteRule ^sitemap\.xml/?$ sitemap.php
+
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME}.php -f
+	RewriteRule ^(.*)$ $1.php
+
+
+    # Redirect Trailing Slashes If Not A Folder...
+   # RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+	RewriteCond %{QUERY_STRING} ^(.*)&?i=[^&]+&?(.*)$ [NC]
+	RewriteRule ^(.*)$ /$1?%1%2 [R=301,L,NE]
+
+    # Handle Front Controller...
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteRule ^ index.php [L]
+</IfModule>
